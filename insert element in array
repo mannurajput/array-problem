@@ -1,0 +1,12 @@
+//insert element in array
+let arr=[77,88,99,66]
+let position=2;
+let num=1000;
+for(let i=arr.length-1;i>=0;i--){
+if(i>=position){
+arr[i+1]=arr[i]
+if(i==position){
+arr[i]=num
+}
+}
+}console.log(arr)
