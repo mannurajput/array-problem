@@ -10,3 +10,21 @@ arr[i]=num
 }
 }
 }console.log(arr)
+
+
+     //or
+
+
+
+let arr=[8,3,4,5]
+let position=3;
+let num =100000;
+for(let i=0;i<=position;i++){
+if(i<=position){
+arr[i]=arr[i+1]
+if(i==position){
+arr[i]=num
+}
+}
+}
+console.log(arr)
