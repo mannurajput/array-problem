@@ -1,0 +1,10 @@
+//merge two array
+let arr=[8,9,0,7];
+let num=[8,0,0,0,0];
+let merge=[]
+for(let i=0;i<=arr.length-1;i++){
+merge[i]=arr[i]
+}
+for(let j=0;j<=num.length-1;j++){
+merge[arr.length+j]=num[j]
+}console.log(merge)
