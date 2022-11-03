@@ -1,0 +1,16 @@
+//sort a array in ascending
+let arr=[2,1,8999,9,666];
+for(let i=0;i<arr.length;i++){
+if(arr[i]>arr[i+1]){
+let temp=arr[i];
+arr[i]=arr[i+1];
+arr[i+1]=temp;
+}
+
+}console.log(arr)
+
+
+
+
+
+//sort a array in descending
